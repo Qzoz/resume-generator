@@ -217,6 +217,12 @@ export default class TemplateType2 {
                     time.innerHTML = `${personalProject.startDate} &mdash; ${personalProject.endDate}`;
                     projectDiv.appendChild(time);
                 }
+                if (personalProject.techStack && personalProject.techStack.length) {
+                    const techStack = document.createElement('h6');
+                    techStack.className = 'qzoz-project-techStack';
+                    techStack.innerHTML = personalProject.techStack.join(', ');
+                    projectDiv.appendChild(techStack);
+                }
                 if (personalProject.description && personalProject.description.length) {
                     const descriptionList = document.createElement('ul');
                     descriptionList.className = 'qzoz-project-description';

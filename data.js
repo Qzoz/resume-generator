@@ -57,11 +57,12 @@ class Education {
     }
 }
 class PersonalProject {
-    constructor(name, link, startDate, endDate, description, source) {
+    constructor(name, link, startDate, endDate, techStack, description, source) {
         this.name = name;
         this.link = link;
         this.startDate = startDate;
         this.endDate = endDate;
+        this.techStack = techStack;
         this.description = description;
         this.siteIcon = 'fa-solid fa-arrow-up-right-from-square';
         if (source) {
@@ -193,7 +194,7 @@ export default class ResumeData {
         const personalProjectList = this.data['personal_projects'];
         if (personalProjectList && personalProjectList instanceof Array && personalProjectList.length) {
             personalProjectList.forEach((personalProject) => {
-                this.personalProjects.push(new PersonalProject(personalProject['name'], personalProject['link'], personalProject['start_date'], personalProject['end_date'], personalProject['description'], personalProject['source']));
+                this.personalProjects.push(new PersonalProject(personalProject['name'], personalProject['link'], personalProject['start_date'], personalProject['end_date'], personalProject['techStack'], personalProject['description'], personalProject['source']));
             });
         }
     }

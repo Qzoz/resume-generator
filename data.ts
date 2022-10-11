@@ -59,6 +59,7 @@ class PersonalProject {
 		public link: string,
 		public startDate: string,
 		public endDate: string,
+		public techStack: string[],
 		public description: string[],
 		source: { type: string; link: string }
 	) {
@@ -247,6 +248,7 @@ export default class ResumeData {
 						personalProject['link'],
 						personalProject['start_date'],
 						personalProject['end_date'],
+						personalProject['techStack'],
 						personalProject['description'],
 						personalProject['source']
 					)

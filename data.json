@@ -75,7 +75,7 @@
             "achievements": [
                 "Developed features like: Whitelabeling, ACL, Views revamp, PDF Reports.",
                 "Created POAs (Plan Of Action) for features like reporting, access control.",
-                "Experienced in aggrid (Library for table plotting) and amcharts (Library for graph plotting).",
+                "Experienced in libraries: aggrid (table) and amcharts (for graph).",
                 "Researched and figured out ways to customize aggrid and amcharts.",
                 "Implemented lazy loading for various part in console.",
                 "Improved the frontend for better performance.",
@@ -116,20 +116,16 @@
             "source": {
                 "link": "https://github.com/Qzoz/poke-diary-mern"
             },
+            "techStack": [
+                "MongoDB",
+                "ExpressJs",
+                "ReactJs",
+                "NodeJs"
+            ],
             "description": [
-                "Poke-Diary is a web application project which focuses on user interface to view pokemon informations.",
-                "Custom REST API for fetching pokemon details",
-                "Technology: <i>MongoDB, ExpressJs, ReactJs, NodeJs.</i>"
-            ]
-        },
-        {
-            "name": "CoviderApp",
-            "source": {
-                "link": "https://github.com/Qzoz/CoviderApp"
-            },
-            "description": [
-                "Covid-19 country wise status app as well as some basic country information.",
-                "Technology: <i>Flutter</i>"
+                "MERN Stack project for viewing pokemon informations.",
+                "Custom REST API for fetching pokemon details.",
+                "Vanilla styles using SCSS and implemented various color themes."
             ]
         },
         {
@@ -137,9 +133,16 @@
             "source": {
                 "link": "https://github.com/Qzoz/T_BraxGenApp"
             },
+            "techStack": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "ElectronJS",
+                "SQLite"
+            ],
             "description": [
                 "Tournament Scheduler and Bracket Generator, a stand alone application to help organizers carry out their tournament event smoothly.",
-                "Technology: <i>HTML, CSS, Javascript, ElectronJS and SQLite</i>"
+                "All queries are done on SQLite database. And UI is created by vanilla CSS and functionality by vanilla scripts."
             ]
         },
         {
@@ -147,10 +150,43 @@
             "source": {
                 "link": "https://github.com/Qzoz/TextEditor"
             },
+            "techStack": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "ElectronJS"
+            ],
             "description": [
-                "Text Editor using vanilla HTML/CSS, JS and used electronjs to run as a stand alone application.",
-                "Added code highlighting for 'C' language and one can also run there 'C' program by just providing compiler path.",
-                "Technology: <i>HTML, CSS, Javascript (Vanilla) and ElectronJS</i>"
+                "Stand alone editor created by using vanilla scripts and styling.",
+                "Implemented file read and write functionality.",
+                "Added code highlighting for 'C' language and one can also run there 'C' program by just providing compiler path."
+            ]
+        },
+        {
+            "name": "Hotel Management System",
+            "source": {
+                "link": "https://github.com/Qzoz/hotel-management"
+            },
+            "techStack": [
+                "Java",
+                "SQLite"
+            ],
+            "description": [
+                "Stand alone application for hotel management using Java Swing and JDBC.",
+                "Added SQLite database for database connectivity."
+            ]
+        },
+        {
+            "name": "CoviderApp",
+            "source": {
+                "link": "https://github.com/Qzoz/CoviderApp"
+            },
+            "techStack": [
+                "Flutter"
+            ],
+            "description": [
+                "Covid-19 cases stats using third party open API.",
+                "Added functionality for basic country details."
             ]
         }
     ],
@@ -161,8 +197,8 @@
     ],
     "achievements": [
         "Our team received Most Valuable Function(Team) for the quarter of April to June 2022.",
-        "Organized a TEKKEN Game Tournament in Fiesta 2019.",
-        "Coordinated Treasure Hunt in Fiesta 2019."
+        "Organized a TEKKEN Game Tournament in College Fiesta 2019.",
+        "Coordinated Treasure Hunt in College Fiesta 2019."
     ],
     "languages": [
         {

@@ -93,11 +93,11 @@ li {
 	padding: 12px 24px;
 
 	.left {
-		width: 40%;
+		width: 30%;
 	}
 
 	.right {
-		width: 60%;
+		width: 70%;
 	}
 }
 
@@ -246,6 +246,9 @@ section {
 		}
 		.qzoz-project-date {
 			color: var(--sub-heading-color);
+		}
+		.qzoz-project-techStack {
+			color: var(--primary-color);
 		}
 		.qzoz-project-description {
 			color: var(--text-color);

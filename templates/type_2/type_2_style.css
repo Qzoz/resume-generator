@@ -95,10 +95,10 @@ li {
   padding: 12px 24px;
 }
 .splitted-sections .left {
-  width: 40%;
+  width: 30%;
 }
 .splitted-sections .right {
-  width: 60%;
+  width: 70%;
 }
 
 section {
@@ -222,6 +222,9 @@ section .qzoz-heading {
 }
 .qzoz-personal-projects .qzoz-project .qzoz-project-date {
   color: var(--sub-heading-color);
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-techStack {
+  color: var(--primary-color);
 }
 .qzoz-personal-projects .qzoz-project .qzoz-project-description {
   color: var(--text-color);
