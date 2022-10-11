@@ -1,0 +1,290 @@
+@charset "UTF-8";
+:root {
+  --primary: 210, 80%;
+  --primary-lightness: 35%;
+  --secondary: 0, 0%;
+  --secondary-lightness: 40%;
+  --primary-color: hsl(var(--primary), var(--primary-lightness));
+  --secondary-color: hsl(var(--secondary), var(--secondary-lightness));
+  --heading-color: hsl(var(--primary), var(--primary-lightness));
+  --sub-heading-color: hsl(var(--secondary), var(--secondary-lightness));
+  --text-color: hsl(0, 0%, 0%);
+  --alt-text-color: hsl(0, 0%, 100%);
+  --profile-name: var(--heading-color);
+  --profile-title: var(--sub-heading-color);
+  --bg-color: lightgray;
+  --page-bg-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 5px;
+  line-height: 1.125;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+h3 {
+  font-size: 1.075rem;
+}
+
+h4 {
+  font-size: 0.95rem;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+h6 {
+  font-size: 0.7rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+p,
+li,
+a,
+i,
+span,
+legend {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.qzoz-page {
+  height: 11.69in;
+  width: 8.27in;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: var(--page-bg-color);
+}
+
+li {
+  line-height: 1.125;
+}
+
+.splitted-sections {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 24px;
+}
+.splitted-sections .left {
+  width: 40%;
+}
+.splitted-sections .right {
+  width: 60%;
+}
+
+section {
+  margin-bottom: 20px;
+}
+section .qzoz-heading {
+  color: hsl(var(--secondary), 70%);
+  margin-bottom: 8px;
+}
+
+.qzoz-profile {
+  padding: 28px 24px 0;
+}
+.qzoz-profile .qzoz-profile-name {
+  color: var(--profile-name);
+  text-align: center;
+}
+
+.qzoz-nav {
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid var(--primary-color);
+  margin-bottom: 12px;
+}
+.qzoz-nav .qzoz-nav-link {
+  padding: 0 8px;
+  margin: 8px 4px;
+  text-decoration: none;
+  color: var(--text-color);
+  white-space: pre;
+}
+.qzoz-nav .qzoz-nav-link:hover {
+  color: var(--text-color);
+}
+.qzoz-nav .qzoz-nav-link:active {
+  color: var(--text-color);
+}
+.qzoz-nav .qzoz-nav-link .qzoz-nav-link-icon {
+  color: var(--primary-color);
+}
+.qzoz-nav .qzoz-nav-link .qzoz-nav-link-text {
+  margin-left: 4px;
+}
+
+.qzoz-link-side {
+  display: flex;
+  flex-direction: column;
+}
+.qzoz-link-side .qzoz-nav-link {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: var(--primary-color);
+  white-space: pre;
+}
+.qzoz-link-side .qzoz-nav-link:hover {
+  color: var(--text-color);
+}
+.qzoz-link-side .qzoz-nav-link:active {
+  color: var(--text-color);
+}
+.qzoz-link-side .qzoz-nav-link .qzoz-nav-link-icon {
+  color: var(--primary-color);
+}
+.qzoz-link-side .qzoz-nav-link .qzoz-nav-link-text {
+  margin-left: 4px;
+}
+
+.qzoz-skills .qzoz-skill-chips {
+  margin: 4px 0;
+  padding: 4px 0;
+  border: 0;
+}
+.qzoz-skills .qzoz-skill-chips legend {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+.qzoz-skills .qzoz-skill-chips ul {
+  padding-left: 20px;
+}
+
+.qzoz-work-experience .qzoz-work .qzoz-work-title {
+  color: var(--text-color);
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-company {
+  color: var(--text-color);
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-time-location {
+  color: var(--sub-heading-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-about {
+  color: var(--sub-heading-color);
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-achievement {
+  color: var(--heading-color);
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-achievement-list {
+  color: var(--text-color);
+  padding-left: 24px;
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-achievement-list li {
+  padding-left: 8px;
+}
+.qzoz-work-experience .qzoz-work .qzoz-work-achievement-list li::marker {
+  content: "—";
+}
+
+.qzoz-personal-projects .qzoz-project {
+  margin-bottom: 12px;
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-name {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-name .right-icon {
+  margin-left: auto;
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-date {
+  color: var(--sub-heading-color);
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-description {
+  color: var(--text-color);
+  padding-left: 24px;
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-description li {
+  padding-left: 8px;
+}
+.qzoz-personal-projects .qzoz-project .qzoz-project-description li::marker {
+  content: "—";
+}
+
+.qzoz-educations .qzoz-education {
+  margin-bottom: 4px;
+  padding-right: 16px;
+}
+.qzoz-educations .qzoz-education .qzoz-education-name {
+  color: var(--text-color);
+}
+.qzoz-educations .qzoz-education .qzoz-education-institute {
+  color: var(--text-color);
+}
+.qzoz-educations .qzoz-education .qzoz-education-time-score {
+  color: var(--sub-heading-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qzoz-achievement-certificate .qzoz-achievements {
+  color: var(--text-color);
+  padding-left: 24px;
+}
+.qzoz-achievement-certificate .qzoz-achievements li {
+  padding-left: 8px;
+}
+.qzoz-achievement-certificate .qzoz-achievements li::marker {
+  content: "—";
+}
+
+.qzoz-languages .qzoz-language-list {
+  display: flex;
+  flex-direction: column;
+}
+.qzoz-languages .qzoz-language-list .qzoz-language-item {
+  margin-bottom: 10px;
+}
+.qzoz-languages .qzoz-language-list .qzoz-language-item .qzoz-language-name {
+  color: var(--text-color);
+}
+.qzoz-languages .qzoz-language-list .qzoz-language-item .qzoz-language-prof {
+  color: var(--heading-color);
+}
+
+.link {
+  margin-left: 8px;
+  text-decoration: none;
+  color: var(--primary-color);
+  white-space: pre;
+}
+.link:hover {
+  color: var(--primary-color);
+}
+.link:active {
+  color: var(--primary-color);
+}/*# sourceMappingURL=type_2_style.css.map */

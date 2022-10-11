@@ -1,0 +1,275 @@
+:root {
+	--primary: 210, 100%;
+	--primary-lightness: 35%;
+	--secondary: 0, 0%;
+	--secondary-lightness: 40%;
+
+	--primary-color: hsl(var(--primary), var(--primary-lightness));
+	--secondary-color: hsl(var(--secondary), var(--secondary-lightness));
+
+	--heading-color: hsl(var(--primary), var(--primary-lightness));
+	--sub-heading-color: hsl(var(--secondary), var(--secondary-lightness));
+
+	--text-color: hsl(0, 0%, 0%);
+	--alt-text-color: hsl(0, 0%, 100%);
+
+	--profile-name: var(--heading-color);
+	--profile-title: var(--sub-heading-color);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+h2 {
+	font-size: 1.25rem;
+}
+h3 {
+	font-size: 1rem;
+}
+h4 {
+	font-size: 0.75rem;
+}
+h5 {
+	font-size: 0.5rem;
+}
+h6 {
+	font-size: 0.25rem;
+}
+p {
+	font-size: 0.85rem;
+}
+
+p,
+li,
+a,
+i,
+span,
+legend {
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.qzoz-page {
+	height: 11.69in;
+	width: 8.27in;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: white;
+}
+
+section {
+	padding: 12px 24px;
+
+	.qzoz-heading {
+		color: var(--heading-color);
+		margin-bottom: 4px;
+	}
+}
+
+.qzoz-profile {
+	padding: 24px 24px 16px;
+
+	.qzoz-profile-name {
+		color: var(--profile-name);
+	}
+	.qzoz-profile-title {
+		color: var(--profile-title);
+	}
+	.qzoz-profile-pitch {
+		color: var(--text-color);
+	}
+}
+
+.qzoz-nav {
+	padding: 0 24px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+	border-top: 2px solid var(--primary-color);
+	border-bottom: 2px solid var(--primary-color);
+
+	.qzoz-nav-link {
+		padding: 0 8px;
+		margin: 8px 4px;
+		text-decoration: none;
+		color: var(--text-color);
+		white-space: pre;
+
+		&:hover {
+			color: var(--text-color);
+		}
+
+		&:active {
+			color: var(--text-color);
+		}
+
+		.qzoz-nav-link-icon {
+			color: var(--primary-color);
+		}
+
+		.qzoz-nav-link-text {
+			margin-left: 4px;
+		}
+	}
+}
+
+.qzoz-skills {
+	.qzoz-skill-chips {
+		margin: 4px 0;
+		padding: 4px 0;
+		border: 0;
+		--chip-lightness-level: 5;
+		--chip-lightness: calc(100% - calc(calc(15% * var(--chip-lightness-level)) + 5%));
+		float: left;
+
+		legend {
+			font-size: 0.8rem;
+			color: var(--secondary-color);
+		}
+
+		.qzoz-skill-chip {
+			padding: 4px 12px;
+			background: hsl(var(--primary), var(--chip-lightness));
+			color: var(--alt-text-color);
+			margin-right: 12px;
+			margin-top: 4px;
+			margin-bottom: 4px;
+			border-radius: 4px;
+		}
+	}
+}
+
+.qzoz-work-experience {
+	clear: left;
+	.qzoz-work {
+		.qzoz-work-title {
+			color: var(--text-color);
+		}
+		.qzoz-work-company {
+			color: var(--text-color);
+		}
+		.qzoz-work-time-location {
+			color: var(--sub-heading-color);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.qzoz-work-about {
+			color: var(--sub-heading-color);
+		}
+		.qzoz-work-achievement {
+			color: var(--heading-color);
+		}
+		.qzoz-work-achievement-list {
+			color: var(--text-color);
+			padding-left: 24px;
+
+			li {
+				padding-left: 8px;
+
+				&::marker {
+					content: '\2014';
+				}
+			}
+		}
+	}
+}
+
+.qzoz-personal-projects {
+	.qzoz-project {
+		margin-bottom: 4px;
+
+		.qzoz-project-name {
+			color: var(--text-color);
+		}
+		.qzoz-project-date {
+			color: var(--sub-heading-color);
+		}
+		.qzoz-project-description {
+			color: var(--text-color);
+			padding-left: 24px;
+
+			li {
+				padding-left: 8px;
+
+				&::marker {
+					content: '\2014';
+				}
+			}
+		}
+	}
+}
+
+.qzoz-educations {
+	.qzoz-education {
+		margin-bottom: 4px;
+
+		.qzoz-education-name {
+			color: var(--text-color);
+		}
+		.qzoz-education-institute {
+			color: var(--text-color);
+		}
+		.qzoz-education-time-score {
+			color: var(--sub-heading-color);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+}
+
+.qzoz-achievement-certificate {
+	.qzoz-achievements {
+		color: var(--text-color);
+		padding-left: 24px;
+
+		li {
+			padding-left: 8px;
+
+			&::marker {
+				content: '\2014';
+			}
+		}
+	}
+}
+
+.qzoz-languages {
+	.qzoz-language-list {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		.qzoz-language-item {
+			flex: 1;
+
+			.qzoz-language-name {
+				color: var(--text-color);
+			}
+			.qzoz-language-prof {
+				color: var(--heading-color);
+			}
+		}
+	}
+}

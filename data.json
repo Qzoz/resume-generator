@@ -1,0 +1,181 @@
+{
+    "full_name": "Mohammad Zaid Quaraishi",
+    "current_profile": "Front-End Developer",
+    "pitch_message": "I am a Frontend Developer",
+    "links": {
+        "email": {
+            "link": "mzq7080@gmail.com"
+        },
+        "phone_no": {
+            "link": "+917080471786"
+        },
+        "location": {
+            "text": "Lucknow, Uttar Pradesh, India"
+        },
+        "linked_in": {
+            "link": "linkedin.com/in/mohammad-zaid-quaraishi",
+            "text": "mohammad-zaid-quaraishi"
+        },
+        "github": {
+            "link": "github.com/Qzoz",
+            "text": "Qzoz"
+        },
+        "hacker_rank": {
+            "link": "www.hackerrank.com/zaid_mohammad91",
+            "text": "zaid_mohammad91"
+        }
+    },
+    "skills": [
+        {
+            "type": "Experienced",
+            "level": 5,
+            "list": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Angular",
+                "ReactJs"
+            ]
+        },
+        {
+            "type": "Intermediate",
+            "level": 4,
+            "list": [
+                "SCSS/SASS",
+                "Typescript",
+                "Java",
+                "NextJs"
+            ]
+        },
+        {
+            "type": "Familiar",
+            "level": 3,
+            "list": [
+                "Python",
+                "Android",
+                "NodeJs",
+                "ExpressJs",
+                "ElectronJs",
+                "Flutter",
+                "Django",
+                "MongoDB",
+                "SQL"
+            ]
+        }
+    ],
+    "work_experiences": [
+        {
+            "profile": "Front End Developer",
+            "company": "Centilytics",
+            "company_link": "https://www.centilytics.com/",
+            "about": "Product to manage and monitor multi cloud infrastructure.",
+            "start_date": "03/2021",
+            "end_date": "Present",
+            "location": "Noida, UP",
+            "achievements": [
+                "Developed features like: Whitelabeling, ACL, Views revamp, PDF Reports.",
+                "Created POAs (Plan Of Action) for features like reporting, access control.",
+                "Experienced in aggrid (Library for table plotting) and amcharts (Library for graph plotting).",
+                "Researched and figured out ways to customize aggrid and amcharts.",
+                "Implemented lazy loading for various part in console.",
+                "Improved the frontend for better performance.",
+                "Initiated the base setup for company website using nextJs and Strapi."
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "course": "B.Tech. CSE",
+            "institute": "Integral University",
+            "start_date": "2017",
+            "end_date": "2021",
+            "location": "Lucknow, UP",
+            "score": "84.58%"
+        },
+        {
+            "course": "Intermediate",
+            "institute": "Christ Church College",
+            "start_date": "2015",
+            "end_date": "2016",
+            "location": "Lucknow, UP",
+            "score": "85.6%"
+        },
+        {
+            "course": "High School",
+            "institute": "Christ Church College",
+            "start_date": "2013",
+            "end_date": "2014",
+            "location": "Lucknow, UP",
+            "score": "87.33%"
+        }
+    ],
+    "personal_projects": [
+        {
+            "name": "Poke-Diary",
+            "link": "https://poke-diary.herokuapp.com/",
+            "source": {
+                "link": "https://github.com/Qzoz/poke-diary-mern"
+            },
+            "description": [
+                "Poke-Diary is a web application project which focuses on user interface to view pokemon informations.",
+                "Custom REST API for fetching pokemon details",
+                "Technology: <i>MongoDB, ExpressJs, ReactJs, NodeJs.</i>"
+            ]
+        },
+        {
+            "name": "CoviderApp",
+            "source": {
+                "link": "https://github.com/Qzoz/CoviderApp"
+            },
+            "description": [
+                "Covid-19 country wise status app as well as some basic country information.",
+                "Technology: <i>Flutter</i>"
+            ]
+        },
+        {
+            "name": "Tournament Brackets Generator",
+            "source": {
+                "link": "https://github.com/Qzoz/T_BraxGenApp"
+            },
+            "description": [
+                "Tournament Scheduler and Bracket Generator, a stand alone application to help organizers carry out their tournament event smoothly.",
+                "Technology: <i>HTML, CSS, Javascript, ElectronJS and SQLite</i>"
+            ]
+        },
+        {
+            "name": "TextEditor",
+            "source": {
+                "link": "https://github.com/Qzoz/TextEditor"
+            },
+            "description": [
+                "Text Editor using vanilla HTML/CSS, JS and used electronjs to run as a stand alone application.",
+                "Added code highlighting for 'C' language and one can also run there 'C' program by just providing compiler path.",
+                "Technology: <i>HTML, CSS, Javascript (Vanilla) and ElectronJS</i>"
+            ]
+        }
+    ],
+    "certificates": [
+        "Programming, Data Structure and Algorithm Using Python (NPTEL)",
+        "Problem Solving Through Programming in C (NPTEL)",
+        "Introduction To Programming in C (NPTEL)"
+    ],
+    "achievements": [
+        "Our team received Most Valuable Function(Team) for the quarter of April to June 2022.",
+        "Organized a TEKKEN Game Tournament in Fiesta 2019.",
+        "Coordinated Treasure Hunt in Fiesta 2019."
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": 3
+        },
+        {
+            "language": "Hindi",
+            "proficiency": 5
+        },
+        {
+            "language": "Urdu",
+            "proficiency": 5
+        }
+    ]
+}
