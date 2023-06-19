@@ -195,6 +195,10 @@ section .qzoz-heading {
 .qzoz-work-experience .qzoz-work .qzoz-work-about {
   color: var(--sub-heading-color);
 }
+.qzoz-work-experience .qzoz-work .qzoz-work-techStack span {
+  color: var(--heading-color);
+  font-size: inherit;
+}
 .qzoz-work-experience .qzoz-work .qzoz-work-achievement {
   color: var(--heading-color);
 }

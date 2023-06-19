@@ -35,11 +35,12 @@ class Skill {
     }
 }
 class WorkExperience {
-    constructor(profile, company, about, companyLink, startDate, endDate, location, achievements) {
+    constructor(profile, company, about, companyLink, techStack, startDate, endDate, location, achievements) {
         this.profile = profile;
         this.company = company;
         this.about = about;
         this.companyLink = companyLink;
+        this.techStack = techStack;
         this.startDate = startDate;
         this.endDate = endDate;
         this.location = location;
@@ -176,7 +177,7 @@ export default class ResumeData {
         const workExperienceList = this.data['work_experiences'];
         if (workExperienceList && workExperienceList instanceof Array && workExperienceList.length) {
             workExperienceList.forEach((workExperience) => {
-                this.workExperiences.push(new WorkExperience(workExperience['profile'], workExperience['company'], workExperience['about'], workExperience['company_link'], workExperience['start_date'], workExperience['end_date'], workExperience['location'], workExperience['achievements']));
+                this.workExperiences.push(new WorkExperience(workExperience['profile'], workExperience['company'], workExperience['about'], workExperience['company_link'], workExperience['tech_stack'], workExperience['start_date'], workExperience['end_date'], workExperience['location'], workExperience['achievements']));
             });
         }
     }

@@ -69,6 +69,13 @@
             "company": "Centilytics",
             "company_link": "https://www.centilytics.com/",
             "about": "Product to manage and monitor multi cloud infrastructure.",
+            "tech_stack": [
+                "HTML",
+                "CSS (SASS)",
+                "Javascript",
+                "Angular",
+                "ReactJs"
+            ],
             "start_date": "03/2021",
             "end_date": "Present",
             "location": "Noida, UP",

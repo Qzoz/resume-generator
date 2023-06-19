@@ -165,6 +165,15 @@ export default class TemplateType2 {
                     about.innerText = workExperience.about;
                     workDiv.appendChild(about);
                 }
+                if (workExperience.techStack && workExperience.techStack.length) {
+                    const techStackWrapper = document.createElement('h6');
+                    techStackWrapper.className = 'qzoz-work-techStack';
+                    techStackWrapper.appendChild(document.createTextNode('Tech Stack: '));
+                    const techStack = document.createElement('span');
+                    techStack.innerHTML = workExperience.techStack.join(', ');
+                    techStackWrapper.appendChild(techStack);
+                    workDiv.appendChild(techStackWrapper);
+                }
                 if (workExperience.achievements && workExperience.achievements.length) {
                     const achievement = document.createElement('h5');
                     achievement.className = 'qzoz-work-achievement';

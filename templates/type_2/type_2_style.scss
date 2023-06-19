@@ -213,6 +213,12 @@ section {
 		.qzoz-work-about {
 			color: var(--sub-heading-color);
 		}
+		.qzoz-work-techStack {
+			span {
+				color: var(--heading-color);
+				font-size: inherit;
+			}
+		}
 		.qzoz-work-achievement {
 			color: var(--heading-color);
 		}
