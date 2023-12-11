@@ -180,6 +180,9 @@ section .qzoz-heading {
   padding-left: 20px;
 }
 
+.qzoz-work-experience .qzoz-work {
+  margin-bottom: 12px;
+}
 .qzoz-work-experience .qzoz-work .qzoz-work-title {
   color: var(--text-color);
 }
