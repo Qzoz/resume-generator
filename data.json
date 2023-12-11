@@ -77,7 +77,7 @@
                 "ReactJs"
             ],
             "start_date": "03/2021",
-            "end_date": "Present",
+            "end_date": "12/2022",
             "location": "Noida, UP",
             "achievements": [
                 "Developed features like: Whitelabeling, ACL, Views revamp, PDF Reports.",
@@ -87,6 +87,30 @@
                 "Implemented lazy loading for various part in console.",
                 "Improved the frontend for better performance.",
                 "Initiated the base setup for company website using nextJs and Strapi."
+            ]
+        },
+        {
+            "profile": "Consultant (Technology Consulting)",
+            "company": "EY LLP (Client: Tata AIG)",
+            "company_link": "https://www.ey.com/",
+            "about": "Worked as a technology consultant on Tata AIG projects focusing majorly on frontend on Angular and VueJs",
+            "tech_stack": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "VueJs",
+                "Angular",
+                "Python",
+                "NodeJs",
+                "MongoDB"
+            ],
+            "start_date": "12/2022",
+            "end_date": "Present",
+            "location": "Gurugram, Haryana",
+            "achievements": [
+                "Responsible for complete frontend development on the client's project.",
+                "Created fullstack features essential for reporting and management.",
+                "Worked on AWS services: Lambda, Glue, S3, Codecommit."
             ]
         }
     ],
