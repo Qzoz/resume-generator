@@ -83,17 +83,14 @@
                 "Developed features like: Whitelabeling, ACL, Views revamp, PDF Reports.",
                 "Created POAs (Plan Of Action) for features like reporting, access control.",
                 "Experienced in libraries: aggrid (table) and amcharts (for graph).",
-                "Researched and figured out ways to customize aggrid and amcharts.",
-                "Implemented lazy loading for various part in console.",
-                "Improved the frontend for better performance.",
-                "Initiated the base setup for company website using nextJs and Strapi."
+                "Implemented lazy loading for various part in console."
             ]
         },
         {
             "profile": "Consultant (Technology Consulting)",
             "company": "EY LLP (Client: Tata AIG)",
             "company_link": "https://www.ey.com/",
-            "about": "Worked as a technology consultant on Tata AIG projects focusing majorly on frontend on Angular and VueJs",
+            "about": "Worked on insurance related projects and tools.",
             "tech_stack": [
                 "HTML",
                 "CSS",
@@ -172,8 +169,8 @@
                 "SQLite"
             ],
             "description": [
-                "Tournament Scheduler and Bracket Generator, a stand alone application to help organizers carry out their tournament event smoothly.",
-                "All queries are done on SQLite database. And UI is created by vanilla CSS and functionality by vanilla scripts."
+                "An application to help organise bracket based tournaments.",
+                "DB queries are on SQLite database. UI is made with vanilla CSS and vanilla javascripts."
             ]
         },
         {
@@ -188,9 +185,8 @@
                 "ElectronJS"
             ],
             "description": [
-                "Stand alone editor created by using vanilla scripts and styling.",
-                "Implemented file read and write functionality.",
-                "Added code highlighting for 'C' language and one can also run there 'C' program by just providing compiler path."
+                "Stand alone editor to read/write files using vanilla javascripts and CSS.",
+                "Added code highlighting for 'C' language and can also run 'C' program by providing compiler path."
             ]
         },
         {
