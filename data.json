@@ -202,19 +202,6 @@
                 "Stand alone application for hotel management using Java Swing and JDBC.",
                 "Added SQLite database for database connectivity."
             ]
-        },
-        {
-            "name": "CoviderApp",
-            "source": {
-                "link": "https://github.com/Qzoz/CoviderApp"
-            },
-            "techStack": [
-                "Flutter"
-            ],
-            "description": [
-                "Covid-19 cases stats using third party open API.",
-                "Added functionality for basic country details."
-            ]
         }
     ],
     "certificates": [
