@@ -140,7 +140,7 @@
     "personal_projects": [
         {
             "name": "Poke-Diary",
-            "link": "https://poke-diary.herokuapp.com/",
+            "link": "https://poke-diary.qzoz.dev/",
             "source": {
                 "link": "https://github.com/Qzoz/poke-diary-mern"
             },
