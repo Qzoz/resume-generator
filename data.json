@@ -1,231 +1,273 @@
 {
-    "full_name": "Mohammad Zaid Quaraishi",
-    "current_profile": "Front-End Developer",
-    "pitch_message": "I am a Frontend Developer",
-    "links": {
-        "email": {
-            "link": "mzq7080@gmail.com"
-        },
-        "phone_no": {
-            "link": "+917080471786"
-        },
-        "location": {
-            "text": "Lucknow, Uttar Pradesh, India"
-        },
-        "linked_in": {
-            "link": "linkedin.com/in/mohammad-zaid-quaraishi",
-            "text": "mohammad-zaid-quaraishi"
-        },
-        "github": {
-            "link": "github.com/Qzoz",
-            "text": "Qzoz"
-        },
-        "hacker_rank": {
-            "link": "www.hackerrank.com/zaid_mohammad91",
-            "text": "zaid_mohammad91"
-        }
+  "full_name": "Mohammad Zaid Quaraishi",
+  "current_profile": "Senior Software Engineer",
+  "pitch_message": "Senior Software Engineer with 5+ years of experience building scalable full-stack applications, designing cloud-native architectures, and optimizing AWS infrastructure. Strong expertise in React, JavaScript/TypeScript, Node.js, Serverless, AWS, and MongoDB, with proven experience delivering enterprise insurance platforms, migrating legacy frontends, designing end-to-end policy renewal systems, and reducing infrastructure and database costs while supporting higher workloads.",
+  "links": {
+    "email": {
+      "link": "mzq7080@gmail.com"
     },
-    "skills": [
-        {
-            "type": "Experienced",
-            "level": 5,
-            "list": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "Angular",
-                "ReactJs"
-            ]
-        },
-        {
-            "type": "Intermediate",
-            "level": 4,
-            "list": [
-                "SCSS/SASS",
-                "Typescript",
-                "Java",
-                "NextJs"
-            ]
-        },
-        {
-            "type": "Familiar",
-            "level": 3,
-            "list": [
-                "Python",
-                "Android",
-                "NodeJs",
-                "ExpressJs",
-                "ElectronJs",
-                "Flutter",
-                "Django",
-                "MongoDB",
-                "SQL"
-            ]
-        }
-    ],
-    "work_experiences": [
-        {
-            "profile": "Front End Developer",
-            "company": "Centilytics",
-            "company_link": "https://www.centilytics.com/",
-            "about": "Product to manage and monitor multi cloud infrastructure.",
-            "tech_stack": [
-                "HTML",
-                "CSS (SASS)",
-                "Javascript",
-                "Angular",
-                "ReactJs"
-            ],
-            "start_date": "03/2021",
-            "end_date": "12/2022",
-            "location": "Noida, UP",
-            "achievements": [
-                "Developed features like: Whitelabeling, ACL, Views revamp, PDF Reports.",
-                "Created POAs (Plan Of Action) for features like reporting, access control.",
-                "Experienced in libraries: aggrid (table) and amcharts (for graph).",
-                "Implemented lazy loading for various part in console."
-            ]
-        },
-        {
-            "profile": "Consultant (Technology Consulting)",
-            "company": "EY LLP (Client: Tata AIG)",
-            "company_link": "https://www.ey.com/",
-            "about": "Worked on insurance related projects and tools.",
-            "tech_stack": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "VueJs",
-                "Angular",
-                "Python",
-                "NodeJs",
-                "MongoDB"
-            ],
-            "start_date": "12/2022",
-            "end_date": "Present",
-            "location": "Gurugram, Haryana",
-            "achievements": [
-                "Responsible for complete frontend development on the client's project.",
-                "Created fullstack features essential for reporting and management.",
-                "Worked on AWS services: Lambda, Glue, S3, Codecommit."
-            ]
-        }
-    ],
-    "educations": [
-        {
-            "course": "B.Tech. CSE",
-            "institute": "Integral University",
-            "start_date": "2017",
-            "end_date": "2021",
-            "location": "Lucknow, UP",
-            "score": "84.58%"
-        },
-        {
-            "course": "Intermediate",
-            "institute": "Christ Church College",
-            "start_date": "2015",
-            "end_date": "2016",
-            "location": "Lucknow, UP",
-            "score": "85.6%"
-        },
-        {
-            "course": "High School",
-            "institute": "Christ Church College",
-            "start_date": "2013",
-            "end_date": "2014",
-            "location": "Lucknow, UP",
-            "score": "87.33%"
-        }
-    ],
-    "personal_projects": [
-        {
-            "name": "Poke-Diary",
-            "link": "https://poke-diary.qzoz.dev/",
-            "source": {
-                "link": "https://github.com/Qzoz/poke-diary-mern"
-            },
-            "techStack": [
-                "MongoDB",
-                "ExpressJs",
-                "ReactJs",
-                "NodeJs"
-            ],
-            "description": [
-                "MERN Stack project for viewing pokemon informations.",
-                "Custom REST API for fetching pokemon details.",
-                "Vanilla styles using SCSS and implemented various color themes."
-            ]
-        },
-        {
-            "name": "Tournament Brackets Generator",
-            "source": {
-                "link": "https://github.com/Qzoz/T_BraxGenApp"
-            },
-            "techStack": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "ElectronJS",
-                "SQLite"
-            ],
-            "description": [
-                "An application to help organise bracket based tournaments.",
-                "DB queries are on SQLite database. UI is made with vanilla CSS and vanilla javascripts."
-            ]
-        },
-        {
-            "name": "TextEditor",
-            "source": {
-                "link": "https://github.com/Qzoz/TextEditor"
-            },
-            "techStack": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "ElectronJS"
-            ],
-            "description": [
-                "Stand alone editor to read/write files using vanilla javascripts and CSS.",
-                "Added code highlighting for 'C' language and can also run 'C' program by providing compiler path."
-            ]
-        },
-        {
-            "name": "Hotel Management System",
-            "source": {
-                "link": "https://github.com/Qzoz/hotel-management"
-            },
-            "techStack": [
-                "Java",
-                "SQLite"
-            ],
-            "description": [
-                "Stand alone application for hotel management using Java Swing and JDBC.",
-                "Added SQLite database for database connectivity."
-            ]
-        }
-    ],
-    "certificates": [
-        "Programming, Data Structure and Algorithm Using Python (NPTEL)",
-        "Problem Solving Through Programming in C (NPTEL)",
-        "Introduction To Programming in C (NPTEL)"
-    ],
-    "achievements": [
-        "Our team received Most Valuable Function(Team) for the quarter of April to June 2022.",
-        "Organized a TEKKEN Game Tournament in College Fiesta 2019.",
-        "Coordinated Treasure Hunt in College Fiesta 2019."
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "proficiency": 3
-        },
-        {
-            "language": "Hindi",
-            "proficiency": 5
-        },
-        {
-            "language": "Urdu",
-            "proficiency": 5
-        }
-    ]
+    "phone_no": {
+      "link": "+917080471786"
+    },
+    "location": {
+      "text": "Lucknow, Uttar Pradesh, India"
+    },
+    "linked_in": {
+      "link": "linkedin.com/in/mohammad-zaid-quaraishi",
+      "text": "mohammad-zaid-quaraishi"
+    },
+    "github": {
+      "link": "github.com/Qzoz",
+      "text": "Qzoz"
+    },
+    "hacker_rank": {
+      "link": "www.hackerrank.com/zaid_mohammad91",
+      "text": "zaid_mohammad91"
+    }
+  },
+  "skills": [
+    {
+      "type": "Expert",
+      "level": 5,
+      "list": [
+        "HTML/CSS",
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Serverless Framework",
+        "AWS Lambda",
+        "AWS SQS",
+        "AWS S3",
+        "AWS CodeArtifact"
+      ]
+    },
+    {
+      "type": "Intermediate",
+      "level": 4,
+      "list": [
+        "TypeScript",
+        "Next.js",
+        "Angular",
+        "Express.js",
+        "SCSS/SASS",
+        "Java",
+        "SQL",
+        "AWS CloudFormation",
+        "AWS API Gateway",
+        "AWS EventBridge",
+        "AWS ECS",
+        "AWS DynamoDB",
+        "AWS Step Functions",
+        "AWS Glue",
+        "AWS SNS",
+        "AWS IoT",
+        "AWS Athena",
+        "AWS CodePipeline",
+        "AWS CodeBuild",
+        "AWS EC2",
+        "AWS CDK"
+      ]
+    },
+    {
+      "type": "Familiar",
+      "level": 3,
+      "list": [
+        "Python",
+        "Vue.js",
+        "Electron.js",
+        "Flutter",
+        "Android",
+        "Django"
+      ]
+    }
+  ],
+  "work_experiences": [
+    {
+      "profile": "Senior Software Engineer",
+      "company": "Tata AIG",
+      "company_link": "https://www.tataaig.com/",
+      "about": "Worked on enterprise insurance products and policy renewal systems.",
+      "tech_stack": [
+        "HTML/CSS",
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Serverless Framework",
+        "AWS Services",
+        "MongoDB",
+        "Java",
+        "Python"
+      ],
+      "start_date": "01/2024",
+      "end_date": "Present",
+      "location": "Gurugram, Haryana",
+      "achievements": [
+        "Designed and managed the complete policy renewal system, covering application architecture, backend workflows, AWS infrastructure, and production implementation.",
+        "Built scalable and cost-effective workflows to support the complete policy renewal lifecycle.",
+        "Reduced database costs by approximately 50% through improved data-volume handling, optimization, and enhanced audit capabilities.",
+        "Reduced annual AWS infrastructure costs by approximately $70,000 while supporting 30% higher workloads.",
+        "Designed cloud-native solutions using AWS Lambda, SQS, S3, Step Functions, EventBridge, API Gateway, Glue, and CloudFormation."
+      ]
+    },
+    {
+      "profile": "Consultant - Technology Consulting",
+      "company": "EY LLP (Client: Tata AIG)",
+      "company_link": "https://www.ey.com/",
+      "about": "Worked on insurance-related applications and technology solutions for Tata AIG.",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue.js",
+        "React.js",
+        "Angular",
+        "Python",
+        "Node.js",
+        "MongoDB",
+        "AWS Services"
+      ],
+      "start_date": "12/2022",
+      "end_date": "01/2024",
+      "location": "Gurugram, Haryana",
+      "achievements": [
+        "Migrated complete frontend application from Vue.js to React.js, improving maintainability and aligning the application with the target technology stack.",
+        "Developed full-stack features supporting - reporting, management, and business workflows.",
+        "Worked with AWS Lambda, Glue, S3, and Step Functions to implement cloud-based application workflows.",
+        "Contributed across frontend, backend, and cloud components of enterprise insurance applications."
+      ]
+    },
+    {
+      "profile": "Front-End Engineer",
+      "company": "Centilytics",
+      "company_link": "https://www.centilytics.com/",
+      "about": "Worked on a product for managing and monitoring multi-cloud infrastructure.",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "SASS/SCSS",
+        "JavaScript",
+        "Angular",
+        "React.js",
+        "AG Grid",
+        "AMCharts"
+      ],
+      "start_date": "03/2021",
+      "end_date": "12/2022",
+      "location": "Noida, Uttar Pradesh",
+      "achievements": [
+        "Developed major product features including Whitelabeling, ACL, Views Revamp, and PDF Reports.",
+        "Created Plans of Action (POAs) for feature development, including reporting and access-control capabilities.",
+        "Implemented complex data visualization and tabular interfaces using AMCharts and AG Grid.",
+        "Implemented lazy loading across multiple parts of the application to improve frontend performance and scalability.",
+        "Worked extensively with Angular, React.js, JavaScript, HTML, CSS, and SASS/SCSS in a multi-cloud infrastructure management product."
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "course": "B.Tech. in Computer Science and Engineering",
+      "institute": "Integral University",
+      "start_date": "2017",
+      "end_date": "2021",
+      "location": "Lucknow, Uttar Pradesh",
+      "score": "84.58%"
+    },
+    {
+      "course": "Intermediate",
+      "institute": "Christ Church College",
+      "start_date": "2015",
+      "end_date": "2016",
+      "location": "Lucknow, Uttar Pradesh",
+      "score": "85.6%"
+    },
+    {
+      "course": "High School",
+      "institute": "Christ Church College",
+      "start_date": "2013",
+      "end_date": "2014",
+      "location": "Lucknow, Uttar Pradesh",
+      "score": "87.33%"
+    }
+  ],
+  "personal_projects": [
+    {
+      "name": "Poke-Diary",
+      "link": "https://poke-diary.qzoz.dev/",
+      "source": {
+        "link": "https://github.com/Qzoz/poke-diary-mern"
+      },
+      "techStack": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "SCSS"
+      ],
+      "description": [
+        "Built a full-stack MERN application for browsing and managing Pokémon information.",
+        "Developed a custom REST API for fetching and serving Pokémon details.",
+        "Implemented a responsive frontend with SCSS and multiple visual themes."
+      ]
+    },
+    {
+      "name": "TextEditor",
+      "source": {
+        "link": "https://github.com/Qzoz/TextEditor"
+      },
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Electron.js"
+      ],
+      "description": [
+        "Built a standalone desktop text editor using Electron.js, vanilla JavaScript, and CSS.",
+        "Implemented file read/write functionality for local files.",
+        "Added C language syntax highlighting and the ability to compile and run C programs using a configured compiler path."
+      ]
+    },
+    {
+      "name": "Hotel Management System",
+      "source": {
+        "link": "https://github.com/Qzoz/hotel-management"
+      },
+      "techStack": [
+        "Java",
+        "SQLite",
+        "JDBC",
+        "Java Swing"
+      ],
+      "description": [
+        "Built a standalone hotel management application using Java Swing.",
+        "Implemented database connectivity using JDBC and SQLite.",
+        "Developed core application functionality for hotel management workflows."
+      ]
+    }
+  ],
+  "certificates": [
+    "Programming, Data Structure and Algorithm Using Python - NPTEL",
+    "Problem Solving Through Programming in C - NPTEL",
+    "Introduction to Programming in C - NPTEL"
+  ],
+  "achievements": [
+    "2025-2026: Received the Tech Titan Award for the 3rd Quarter.",
+    "2021-2022: Team received the Most Valuable Function (Team) award for the April-June 2022 quarter.",
+    "2019: Organized a TEKKEN gaming tournament during College Fiesta 2019.",
+    "2019: Coordinated a Treasure Hunt during College Fiesta 2019."
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": 3
+    },
+    {
+      "language": "Hindi",
+      "proficiency": 5
+    },
+    {
+      "language": "Urdu",
+      "proficiency": 5
+    }
+  ]
 }
